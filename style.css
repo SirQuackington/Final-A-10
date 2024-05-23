@@ -1,4 +1,5 @@
- body {
+/*body give the flont and the bacgkround image that is centered*/
+body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,7 +16,7 @@
     padding-top: 0%;
     overflow: hidden;
 }
-
+/* main infomation*/
 h1 {
     width: 80vw;
     border: none;
@@ -26,7 +27,7 @@ h1 {
     font-size: 1rem;
     color: #FFD700;
 }
-
+/*animations for the buttons*/
 .slide:hover,
 .slide:focus {
     box-shadow: 
@@ -51,6 +52,7 @@ button {
     --hover: rgba(255, 215, 0, 0.5);
     --color: #0437F2;
 }
+/*makes the images darker for text*/
 #trans {
     background-color: rgba(0,0,0,0.65);
     position: relative;
@@ -61,6 +63,7 @@ button {
     border:0%;
     overflow: hidden;
 }
+/*for list*/
 h2 {
     width: 80vw;
     border: none;
@@ -81,6 +84,7 @@ li {
     font-size: 1.5rem;
     color: #FFD700;
 }
+/*for sending a fake email*/
 input {
     background: none;
     border: 4px solid #0437F2;
