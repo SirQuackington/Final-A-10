@@ -1,0 +1,110 @@
+ body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Fira Sans", sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+    overflow: hidden;
+}
+
+h1 {
+    width: 80vw;
+    border: none;
+    padding: 0.5vw;
+    margin: auto;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 1rem;
+    color: #FFD700;
+}
+
+.slide:hover,
+.slide:focus {
+    box-shadow: 
+        inset -94vw 0 0 0 var(--hover),
+        inset 94vw 0 0 0 var(--hover);  
+}
+
+button {
+    background: none;
+    border: 4px solid #0437F2;
+    font-size: 5rem;
+    line-height: 1.5;
+    margin: 2.5%;
+    padding: 2.5vw;
+    width: 80vw;
+    color: var(--color);
+    transition: 0.78s;
+    font-family: inherit;
+}
+
+.slide {
+    --hover: rgba(255, 215, 0, 0.5);
+    --color: #0437F2;
+}
+#trans {
+    background-color: rgba(0,0,0,0.65);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-family: Verdana, Geneva, sans-serif;
+    z-index: 1;
+    border:0%;
+    overflow: hidden;
+}
+h2 {
+    width: 80vw;
+    border: none;
+    padding: 0.5vw;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 2rem;
+    color: #FFD700;
+}
+li {
+    width: 80vw;
+    border: none;
+    padding: 0.5vw;
+    margin: auto;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+    color: #FFD700;
+}
+input {
+    background: none;
+    border: 4px solid #0437F2;
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 10vh;
+    margin: 2.5%;
+    padding: 0.5vw;
+    width: 80vw;
+    color: #FFD700;
+    transition: 0.78s;
+    font-family: inherit;
+    text-align: top, left;
+}
+textarea {
+    background: none;
+    border: 4px solid #0437F2;
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 20vh;
+    margin: 0.5%;
+    padding: 2.5vw;
+    width: 80vw;
+    color: #FFD700;
+    transition: 0.78s;
+    font-family: inherit;
+}
